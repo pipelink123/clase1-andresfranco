@@ -1,4 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import CartWidget from './CartWidget'
+
+
+
 
 function NavBar() {
   return (
@@ -41,13 +45,16 @@ function NavBar() {
                   productos
                 </a>
               </li>
+              <li class="nav-item">
+              <CartWidget />
+              </li>
+
             </ul>
           </div>
         </div>
       </nav>
-
-      
     </>
   );
 }
+
 export default NavBar;

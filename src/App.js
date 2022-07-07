@@ -1,13 +1,11 @@
-import './App.css';
+// import NavBar from './components/Navbar'
+// import CartWidget from './components/CartWidget'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      <p>
-          HOLA MUNDO!!!!!!!!!!!!!!!!.
-        </p>
-      </header>
+          {/* <NavBar />
+          <CartWidget /> */}
     </div>
   );
 }

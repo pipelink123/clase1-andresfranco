@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap';
 import NavBar from './components/Navbar'
+import ItemListContainer from './components/ItemListContainer'
+
 
 
 
@@ -11,6 +13,7 @@ root.render(
   <React.StrictMode>
 
     <NavBar />
+    <ItemListContainer />
 
   </React.StrictMode>
 );
