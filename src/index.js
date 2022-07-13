@@ -4,6 +4,7 @@ import './index.css';
 import 'bootstrap';
 import NavBar from './components/Navbar'
 import ItemListContainer from './components/ItemListContainer'
+import ItemCount from './components/ItemCount'
 
 
 
@@ -14,6 +15,7 @@ root.render(
 
     <NavBar />
     <ItemListContainer />
+    <ItemCount />
 
   </React.StrictMode>
 );
